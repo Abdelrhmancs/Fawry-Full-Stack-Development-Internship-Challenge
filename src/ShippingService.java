@@ -11,6 +11,6 @@ public class ShippingService {
         }
 
         System.out.printf("Total package weight %.1fkg\n", totalWeight);
-        return totalWeight * 30; // السعر لكل كيلو
+        return totalWeight * 30; 
     }
 }
